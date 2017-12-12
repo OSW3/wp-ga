@@ -1,0 +1,23 @@
+{
+    "register": {
+        "settings": {
+            "menus": {
+                "action": true,
+                "settings": true
+            },
+            
+            "sections": [{
+                "title": "Tracking Code",
+                "schema": [{
+                    "key": "trackingid",
+                    "label": "Tracking ID",
+                    "type": "text",
+                    "placeholder": "UA-XXXXXXXX-X"
+                }]
+            }]
+        }
+    },
+    "shortcodes": {
+        "WP_GoogleAnalytics": "WP_GoogleAnalytics"
+    }
+}
