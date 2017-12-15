@@ -8,6 +8,7 @@
             
             "sections": [{
                 "title": "Tracking Code",
+                "description": "Add a tracking code to Google Analytics start tracking your website.",
                 "schema": [{
                     "key": "trackingid",
                     "label": "Tracking ID",
