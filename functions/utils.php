@@ -19,6 +19,11 @@ if (!function_exists('GoogleAnalytics_getOption'))
     function GoogleAnalytics_getOption( $param )
     {
         $options = get_option( "google_analytics" );
-        return $options[ $param ];
+        if (isset($options[ $param ]))
+        {
+            return $options[ $param ];
+        }
+
+        return null;
     }
 } 
